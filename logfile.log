@@ -16,3 +16,21 @@
 2022-03-06 20:21:37,115 :INFO : test_3 :Plan detail displayed on checkout page You'll pay $40.00 per month
 2022-03-06 20:21:37,115 :INFO : test_3 :Plan on sticky cart and checkout page is matching : PASS 
  
+2022-03-06 21:59:59,908 :INFO : test_1 :Description : Validate all plans cta ('Add to cart' button) in the UI matches with the API's ctaLabel field (under planListing/plans/)
+2022-03-06 22:00:03,066 :INFO : test_1 :Total number of label in api request : 5
+2022-03-06 22:00:03,066 :INFO : test_1 :Text for each label in api request: ['Add to cart', 'Add to cart', 'Add to cart', 'Add to cart', 'Add to cart']
+2022-03-06 22:00:03,226 :INFO : test_1 :Total number of label in UI : 5
+2022-03-06 22:00:03,226 :INFO : test_1 :Text for each label in UI: ['Add to cart', 'Add to cart', 'Add to cart', 'Add to cart', 'Add to cart']
+2022-03-06 22:00:03,227 :INFO : test_1 :The total number of cta button and its labels on UI and API are matching : PASS 
+ 
+2022-03-06 22:00:20,773 :INFO : test_2 :Select any plan and validate if the price shown in sticky cart is same as the plan selected
+2022-03-06 22:00:23,381 :INFO : test_2 :Selected plan details : $40 per month
+2022-03-06 22:00:23,699 :INFO : test_2 :Plan details displayed on sticky cart : You'll pay $40.00 per month
+2022-03-06 22:00:23,699 :INFO : test_2 :The plan selected and displayed on sticky cart is matching : PASS 
+ 
+2022-03-06 22:00:41,200 :INFO : test_3 :Proceed to cart and validate if cart page is shown with the correct product
+2022-03-06 22:00:44,532 :INFO : test_3 :Plan details displayed on sticky cart : You'll pay $40.00 per month
+2022-03-06 22:01:02,080 :INFO : test_3 :Plan detail displayed on checkout page $40.00 per month
+2022-03-06 22:01:02,080 :INFO : test_3 :Plan detail displayed on checkout page You'll pay $40.00 per month
+2022-03-06 22:01:02,080 :INFO : test_3 :Plan on sticky cart and checkout page is matching : PASS 
+ 
